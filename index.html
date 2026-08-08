@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SIWES — Smart Integrated Water &amp; Energy System</title>
+<meta name="description" content="SIWES (Smart Integrated Water & Energy System) — intelligent, sustainable management of water and energy resources for a better tomorrow." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="assets/images/logo-icon.png">
+
+<link rel="stylesheet" href="/css/green.css">
+</head>
+<body class="lang-en">
+
+<!-- ============ CUSTOM CURSOR GLOW (subtle) ============ -->
+<div class="cursor-glow" aria-hidden="true"></div>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar" id="navbar">
+  <div class="navbar__inner">
+    <a href="#top" class="brand">
+      <span class="brand__mark">
+        <img src="image.png" alt="SIWES logo" width="40" height="40">
+      </span>
+      <span class="brand__text">
+        <strong>SIWES</strong>
+        <em class="lang-block en-text">Water &amp; Energy System</em>
+        <em class="lang-block ar-text">نظام المياه والطاقة الذكي</em>
+      </span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about" class="nav-link"><span class="en-text lang-block">About</span><span class="ar-text lang-block">من نحن</span></a>
+      <a href="#vision" class="nav-link"><span class="en-text lang-block">Vision</span><span class="ar-text lang-block">رؤيتنا</span></a>
+      <a href="#mission" class="nav-link"><span class="en-text lang-block">Mission</span><span class="ar-text lang-block">رسالتنا</span></a>
+      <a href="#initiatives" class="nav-link"><span class="en-text lang-block">Initiatives</span><span class="ar-text lang-block">مبادراتنا</span></a>
+      <a href="#employment" class="nav-link"><span class="en-text lang-block">Employment</span><span class="ar-text lang-block">التوظيف</span></a>
+      <a href="#contact" class="nav-link"><span class="en-text lang-block">Contact</span><span class="ar-text lang-block">تواصل معنا</span></a>
+    </nav>
+
+    <div class="navbar__actions">
+      <button class="lang-switch" id="langSwitch" aria-label="Switch language">
+        <span class="en-text lang-block">العربية</span>
+        <span class="ar-text lang-block">English</span>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" class="mobile-link"><span class="en-text lang-block">About</span><span class="ar-text lang-block">من نحن</span></a>
+  <a href="#vision" class="mobile-link"><span class="en-text lang-block">Vision</span><span class="ar-text lang-block">رؤيتنا</span></a>
+  <a href="#mission" class="mobile-link"><span class="en-text lang-block">Mission</span><span class="ar-text lang-block">رسالتنا</span></a>
+  <a href="#initiatives" class="mobile-link"><span class="en-text lang-block">Initiatives</span><span class="ar-text lang-block">مبادراتنا</span></a>
+  <a href="#employment" class="mobile-link"><span class="en-text lang-block">Employment</span><span class="ar-text lang-block">التوظيف</span></a>
+  <a href="#contact" class="mobile-link"><span class="en-text lang-block">Contact</span><span class="ar-text lang-block">تواصل معنا</span></a>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="hero__bg" aria-hidden="true">
+    <svg class="hero__wave" viewBox="0 0 1440 800" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="waveGrad1" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#2E7D32" stop-opacity="0.14"/>
+          <stop offset="100%" stop-color="#2196F3" stop-opacity="0.10"/>
+        </linearGradient>
+        <linearGradient id="waveGrad2" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#43A047" stop-opacity="0.10"/>
+          <stop offset="100%" stop-color="#2196F3" stop-opacity="0.06"/>
+        </linearGradient>
+      </defs>
+      <path class="wave-path wave-path--1" d="M0,420 C280,340 420,520 720,470 C1020,420 1180,300 1440,380 L1440,800 L0,800 Z" fill="url(#waveGrad1)"/>
+      <path class="wave-path wave-path--2" d="M0,520 C300,460 500,600 800,540 C1080,485 1240,560 1440,500 L1440,800 L0,800 Z" fill="url(#waveGrad2)"/>
+    </svg>
+    <div class="floating-icon fi-1" aria-hidden="true">💧</div>
+    <div class="floating-icon fi-2" aria-hidden="true">⚡</div>
+    <div class="floating-icon fi-3" aria-hidden="true">🌿</div>
+    <div class="floating-icon fi-4" aria-hidden="true">♻️</div>
+  </div>
+
+  <div class="hero__grid">
+    <div class="hero__content" data-reveal>
+      <p class="eyebrow">
+        <span class="en-text lang-block">Smart Integrated Water &amp; Energy System</span>
+        <span class="ar-text lang-block">النظام الذكي المتكامل للمياه والطاقة</span>
+      </p>
+      <h1 class="hero__title">
+        <span class="hero__title-main">SIWES</span>
+        <span class="hero__title-sub en-text lang-block">Building a smarter, more sustainable future — one system at a time.</span>
+        <span class="hero__title-sub ar-text lang-block">نحو مستقبل أذكى وأكثر استدامة — نظامًا واحدًا في كل مرة.</span>
+      </h1>
+      <p class="hero__desc en-text lang-block">Building a smarter and more sustainable future through intelligent water and energy management.</p>
+      <p class="hero__desc ar-text lang-block">نحو بناء مستقبل أكثر ذكاءً واستدامة من خلال الإدارة الذكية لموارد المياه والطاقة.</p>
+
+      <div class="hero__cta">
+        <a class="btn btn--primary ripple" href="https://docs.google.com/forms/d/e/1FAIpQLScwhgFkyLpz2VzXj4iynpbjil24NKIHj0N6-jNXULtX1GX8Uw/viewform?usp=publish-editor" target="_blank" rel="noopener">
+          <span class="en-text lang-block">Join Initiative</span>
+          <span class="ar-text lang-block">انضم للمبادرة</span>
+        </a>
+        <a class="btn btn--secondary ripple" href="https://docs.google.com/forms/d/e/1FAIpQLSe5ll_x4hCi9IqLTOFju5NXDgfSj97Xbp7yy5_deXjsCMDNCA/viewform?usp=publish-editor" target="_blank" rel="noopener">
+          <span class="en-text lang-block">Employment Program</span>
+          <span class="ar-text lang-block">برنامج التوظيف</span>
+        </a>
+        <a class="btn btn--ghost ripple" href="#about">
+          <span class="en-text lang-block">Learn More</span>
+          <span class="ar-text lang-block">اعرف المزيد</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" class="btn__arrow"><path d="M12 5v14M12 19l-6-6M12 19l6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero__art" data-reveal>
+      <svg viewBox="0 0 520 520" class="hero__halo" aria-hidden="true">
+        <defs>
+          <radialGradient id="haloGrad" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#E3F2FD" stop-opacity="0.9"/>
+            <stop offset="100%" stop-color="#E3F2FD" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <circle cx="260" cy="260" r="230" fill="url(#haloGrad)"/>
+        <circle class="orbit-ring" cx="260" cy="260" r="200" fill="none" stroke="#2E7D32" stroke-opacity="0.18" stroke-width="1.5" stroke-dasharray="4 10"/>
+      </svg>
+      <img class="hero__logo" src="image.png" alt="SIWES — Smart Integrated Water &amp; Energy System logo">
+    </div>
+  </div>
+
+  <button class="scroll-cue" id="scrollCue" aria-label="Scroll down">
+    <span></span>
+  </button>
+</section>
+
+<!-- ============ JOURNEY WRAPPER (About / Vision / Mission / Initiatives) ============ -->
+<div class="journey" id="journey">
+
+  <svg class="flow-line" id="flowLine" viewBox="0 0 100 1600" preserveAspectRatio="none" aria-hidden="true">
+    <path id="flowPath" d="M50,0 C20,120 80,220 50,340 C20,460 80,560 50,680 C20,800 80,900 50,1020 C20,1140 80,1260 50,1380 C30,1460 60,1540 50,1600" fill="none" stroke="url(#flowGrad)" stroke-width="2.5" stroke-linecap="round"/>
+    <defs>
+      <linearGradient id="flowGrad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#2E7D32"/>
+        <stop offset="50%" stop-color="#43A047"/>
+        <stop offset="100%" stop-color="#2196F3"/>
+      </linearGradient>
+    </defs>
+  </svg>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="section-inner about__grid">
+      <div class="about__media" data-reveal>
+        <div class="flow-dot" data-dot="0"><span class="flow-dot__icon">💧</span></div>
+        <svg viewBox="0 0 400 420" class="about__svg">
+          <defs>
+            <linearGradient id="aboutGrad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#E3F2FD"/>
+              <stop offset="100%" stop-color="#F8FCF9"/>
+            </linearGradient>
+          </defs>
+          <rect x="20" y="40" width="360" height="340" rx="28" fill="url(#aboutGrad)"/>
+          <circle cx="120" cy="150" r="46" fill="#2E7D32" opacity="0.14"/>
+          <circle cx="290" cy="290" r="60" fill="#2196F3" opacity="0.12"/>
+          <path d="M110 250c30-70 150-70 180 0" stroke="#43A047" stroke-width="6" fill="none" stroke-linecap="round"/>
+          <circle cx="110" cy="250" r="8" fill="#2E7D32"/>
+          <circle cx="290" cy="250" r="8" fill="#2196F3"/>
+          <path d="M200 150v-40M180 130l20-30 20 30" stroke="#2E7D32" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div class="about__copy" data-reveal>
+        <p class="tag">
+          <span class="en-text lang-block">Who we are</span>
+          <span class="ar-text lang-block">من نحن</span>
+        </p>
+        <h2>
+          <span class="en-text lang-block">About SIWES</span>
+          <span class="ar-text lang-block">عن SIWES</span>
+        </h2>
+        <p class="en-text lang-block">
+          At SIWES (Smart Integrated Water &amp; Energy System), we are dedicated to creating smarter and more sustainable solutions for managing water and energy resources. Our mission blends cutting-edge technology with environmental responsibility to build a future where communities thrive without compromising the planet's resources. Through intelligent monitoring, automation and data-driven insights, we help organizations reduce waste, lower costs and operate more sustainably — one system at a time.
+        </p>
+        <p class="ar-text lang-block">
+          في النظام الذكي المتكامل للمياه والطاقة (SIWES)، نكرّس جهودنا لابتكار حلول أكثر ذكاءً واستدامة لإدارة موارد المياه والطاقة. تجمع رسالتنا بين أحدث التقنيات والمسؤولية البيئية لبناء مستقبل تزدهر فيه المجتمعات دون استنزاف موارد الكوكب. من خلال المراقبة الذكية والأتمتة والتحليلات المعتمدة على البيانات، نساعد المؤسسات على خفض الهدر وتقليل التكاليف والعمل بشكل أكثر استدامة — نظامًا واحدًا في كل مرة.
+        </p>
+
+        <div class="stat-row">
+          <div class="stat">
+            <span class="stat__num" data-count="40">0</span><span class="stat__suffix">%</span>
+            <span class="stat__label en-text lang-block">Water waste reduced</span>
+            <span class="stat__label ar-text lang-block">تقليل هدر المياه</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num" data-count="24">0</span><span class="stat__suffix">/7</span>
+            <span class="stat__label en-text lang-block">Real-time monitoring</span>
+            <span class="stat__label ar-text lang-block">مراقبة لحظية</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num" data-count="100">0</span><span class="stat__suffix">+</span>
+            <span class="stat__label en-text lang-block">Communities engaged</span>
+            <span class="stat__label ar-text lang-block">مجتمع مستفيد</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== VISION ===== -->
+  <section class="vision" id="vision">
+    <div class="section-inner vision__grid">
+      <div class="vision__copy" data-reveal>
+        <div class="flow-dot" data-dot="1"><span class="flow-dot__icon">🌍</span></div>
+        <p class="tag">
+          <span class="en-text lang-block">Where we're headed</span>
+          <span class="ar-text lang-block">إلى أين نتجه</span>
+        </p>
+        <h2>
+          <span class="en-text lang-block">Our Vision</span>
+          <span class="ar-text lang-block">رؤيتنا</span>
+        </h2>
+        <p class="en-text lang-block">
+          To become a leading provider of intelligent water and energy solutions across the region, empowering communities and institutions to manage vital resources with precision, transparency and care for future generations.
+        </p>
+        <p class="ar-text lang-block">
+          أن نكون روادًا في تقديم حلول ذكية لإدارة المياه والطاقة على مستوى المنطقة، وتمكين المجتمعات والمؤسسات من إدارة الموارد الحيوية بدقة وشفافية وحرص على الأجيال القادمة.
+        </p>
+      </div>
+      <div class="vision__media" data-reveal>
+        <svg viewBox="0 0 400 340" class="vision__svg">
+          <circle cx="200" cy="170" r="150" fill="#E3F2FD"/>
+          <circle cx="200" cy="170" r="150" fill="none" stroke="#2196F3" stroke-width="1.5" stroke-opacity="0.3" stroke-dasharray="2 8"/>
+          <path d="M200 60a110 110 0 0 1 0 220 110 110 0 0 1 0-220Z" fill="none" stroke="#2E7D32" stroke-width="2" stroke-opacity="0.35"/>
+          <circle cx="200" cy="60" r="6" fill="#2E7D32"/>
+          <circle cx="310" cy="170" r="6" fill="#2196F3"/>
+          <circle cx="200" cy="280" r="6" fill="#43A047"/>
+          <circle cx="90" cy="170" r="6" fill="#2E7D32"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MISSION ===== -->
+  <section class="mission" id="mission">
+    <div class="section-inner mission__grid">
+      <div class="mission__media" data-reveal>
+        <div class="flow-dot" data-dot="2"><span class="flow-dot__icon">⚙️</span></div>
+        <svg viewBox="0 0 400 340" class="mission__svg">
+          <rect x="40" y="30" width="320" height="280" rx="24" fill="#F8FCF9" stroke="#43A047" stroke-opacity="0.25"/>
+          <rect x="70" y="70" width="110" height="70" rx="12" fill="#2E7D32" opacity="0.12"/>
+          <rect x="220" y="70" width="110" height="70" rx="12" fill="#2196F3" opacity="0.12"/>
+          <rect x="70" y="170" width="260" height="100" rx="12" fill="#43A047" opacity="0.10"/>
+          <path d="M100 220l40-40 40 30 60-60" stroke="#2E7D32" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="100" cy="220" r="5" fill="#2E7D32"/>
+          <circle cx="240" cy="150" r="5" fill="#2196F3"/>
+          <circle cx="300" cy="150" r="5" fill="#2196F3"/>
+        </svg>
+      </div>
+      <div class="mission__copy" data-reveal>
+        <p class="tag">
+          <span class="en-text lang-block">How we get there</span>
+          <span class="ar-text lang-block">كيف نصل إلى ذلك</span>
+        </p>
+        <h2>
+          <span class="en-text lang-block">Our Mission</span>
+          <span class="ar-text lang-block">رسالتنا</span>
+        </h2>
+        <p class="en-text lang-block">
+          To develop innovative smart systems that integrate water and energy management, using IoT, automation and real-time analytics to optimize resource use, reduce environmental impact, and support sustainable growth.
+        </p>
+        <p class="ar-text lang-block">
+          تطوير نظام ذكي مبتكر يدمج إدارة المياه والطاقة، باستخدام إنترنت الأشياء والأتمتة والتحليلات اللحظية لتحسين استخدام الموارد وتقليل الأثر البيئي ودعم النمو المستدام.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INITIATIVES ===== -->
+  <section class="initiatives" id="initiatives">
+    <div class="section-inner">
+      <div class="section-head" data-reveal>
+        <div class="flow-dot flow-dot--inline" data-dot="3"><span class="flow-dot__icon">🤝</span></div>
+        <p class="tag">
+          <span class="en-text lang-block">Get involved</span>
+          <span class="ar-text lang-block">شارك معنا</span>
+        </p>
+        <h2>
+          <span class="en-text lang-block">Our Initiatives</span>
+          <span class="ar-text lang-block">مبادراتنا</span>
+        </h2>
+      </div>
+
+      <div class="cards cards--initiatives">
+        <article class="card card--initiative" data-reveal>
+          <div class="card__icon">🧠</div>
+          <h3>
+            <span class="en-text lang-block">Nash'a Message</span>
+            <span class="ar-text lang-block">رسالة نشء</span>
+          </h3>
+          <p class="en-text lang-block">Raising awareness among Generation Z around digital distraction, time management, self-awareness and responsible technology use.</p>
+          <p class="ar-text lang-block">مبادرة لرفع الوعي لدى جيل "زد" حول التشتت الرقمي، وإدارة الوقت، والوعي الذاتي، والاستخدام المسؤول للتكنولوجيا.</p>
+          <a class="btn btn--outline ripple" href="https://docs.google.com/forms/d/e/1FAIpQLScwhgFkyLpz2VzXj4iynpbjil24NKIHj0N6-jNXULtX1GX8Uw/viewform?usp=publish-editor" target="_blank" rel="noopener">
+            <span class="en-text lang-block">Join Initiative</span>
+            <span class="ar-text lang-block">انضم للمبادرة</span>
+          </a>
+        </article>
+
+        <article class="card card--initiative" data-reveal id="employment">
+          <div class="card__icon">👩‍💼</div>
+          <h3>
+            <span class="en-text lang-block">Women's Employment Program</span>
+            <span class="ar-text lang-block">برنامج تمكين المرأة</span>
+          </h3>
+          <p class="en-text lang-block">Empowering women through employment opportunities, skills development and greater economic participation.</p>
+          <p class="ar-text lang-block">تمكين المرأة من خلال فرص التوظيف، وتطوير المهارات، وتعزيز المشاركة الاقتصادية.</p>
+          <a class="btn btn--outline ripple" href="https://docs.google.com/forms/d/e/1FAIpQLSe5ll_x4hCi9IqLTOFju5NXDgfSj97Xbp7yy5_deXjsCMDNCA/viewform?usp=publish-editor" target="_blank" rel="noopener">
+            <span class="en-text lang-block">Apply Now</span>
+            <span class="ar-text lang-block">قدّم الآن</span>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+</div><!-- /journey -->
+
+<!-- ============ FEATURES ============ -->
+<section class="features">
+  <div class="section-inner">
+    <div class="section-head section-head--center" data-reveal>
+      <p class="tag">
+        <span class="en-text lang-block">Capabilities</span>
+        <span class="ar-text lang-block">إمكانياتنا</span>
+      </p>
+      <h2>
+        <span class="en-text lang-block">What Powers SIWES</span>
+        <span class="ar-text lang-block">ما الذي يشغّل SIWES</span>
+      </h2>
+    </div>
+
+    <div class="features__grid">
+      <div class="feature" data-reveal>
+        <span class="feature__icon">💧</span>
+        <h3><span class="en-text lang-block">Smart Water Management</span><span class="ar-text lang-block">إدارة ذكية للمياه</span></h3>
+        <p class="en-text lang-block">Precision monitoring that catches leaks and waste before they become losses.</p>
+        <p class="ar-text lang-block">مراقبة دقيقة تكتشف التسريبات والهدر قبل أن تتحول إلى خسائر.</p>
+      </div>
+      <div class="feature" data-reveal>
+        <span class="feature__icon">☀️</span>
+        <h3><span class="en-text lang-block">Renewable Energy</span><span class="ar-text lang-block">الطاقة المتجددة</span></h3>
+        <p class="en-text lang-block">Clean energy sources integrated seamlessly into everyday operations.</p>
+        <p class="ar-text lang-block">مصادر طاقة نظيفة مدمجة بسلاسة في العمليات اليومية.</p>
+      </div>
+      <div class="feature" data-reveal>
+        <span class="feature__icon">🌿</span>
+        <h3><span class="en-text lang-block">Environmental Sustainability</span><span class="ar-text lang-block">الاستدامة البيئية</span></h3>
+        <p class="en-text lang-block">Every decision measured against its long-term impact on the planet.</p>
+        <p class="ar-text lang-block">كل قرار يُقاس بأثره طويل المدى على الكوكب.</p>
+      </div>
+      <div class="feature" data-reveal>
+        <span class="feature__icon">📡</span>
+        <h3><span class="en-text lang-block">IoT Monitoring</span><span class="ar-text lang-block">مراقبة عبر إنترنت الأشياء</span></h3>
+        <p class="en-text lang-block">Connected sensors give a living, breathing picture of every resource.</p>
+        <p class="ar-text lang-block">أجهزة استشعار متصلة توفر صورة حية لكل مورد.</p>
+      </div>
+      <div class="feature" data-reveal>
+        <span class="feature__icon">📊</span>
+        <h3><span class="en-text lang-block">Real-time Analytics</span><span class="ar-text lang-block">تحليلات لحظية</span></h3>
+        <p class="en-text lang-block">Data turned into decisions, the moment it matters most.</p>
+        <p class="ar-text lang-block">تحويل البيانات إلى قرارات في اللحظة الأكثر أهمية.</p>
+      </div>
+      <div class="feature" data-reveal>
+        <span class="feature__icon">🤖</span>
+        <h3><span class="en-text lang-block">Automation</span><span class="ar-text lang-block">الأتمتة</span></h3>
+        <p class="en-text lang-block">Systems that respond on their own, so people don't have to watch every gauge.</p>
+        <p class="ar-text lang-block">أنظمة تستجيب تلقائيًا دون الحاجة لمراقبة مستمرة.</p>
+      </div>
+      <div class="feature" data-reveal>
+        <span class="feature__icon">🎯</span>
+        <h3><span class="en-text lang-block">Resource Optimization</span><span class="ar-text lang-block">تحسين استخدام الموارد</span></h3>
+        <p class="en-text lang-block">Getting more value from every drop and every watt.</p>
+        <p class="ar-text lang-block">تحقيق أقصى استفادة من كل قطرة وكل واط.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="section-inner">
+    <div class="section-head section-head--center" data-reveal>
+      <p class="tag">
+        <span class="en-text lang-block">Stay connected</span>
+        <span class="ar-text lang-block">ابقَ على تواصل</span>
+      </p>
+      <h2>
+        <span class="en-text lang-block">Contact Us</span>
+        <span class="ar-text lang-block">تواصل معنا</span>
+      </h2>
+      <p class="en-text lang-block">Follow our progress and reach out through your favorite channel.</p>
+      <p class="ar-text lang-block">تابع مستجداتنا وتواصل معنا عبر القناة التي تفضلها.</p>
+    </div>
+
+    <div class="contact__cards">
+      <a href="https://www.facebook.com/share/1DEFErzuTK/" class="contact-card" data-reveal>
+        <span class="contact-card__icon" style="background:#2196F3">f</span>
+        <span class="contact-card__label">Facebook</span>
+        <span class="contact-card__arrow">→</span>
+      </a>
+      <a href="https://www.tiktok.com/@siwes02?_r=1&_t=ZS-98im3P4nNkz" class="contact-card" data-reveal>
+        <span class="contact-card__icon" style="background:#1F2937">♪</span>
+        <span class="contact-card__label">TikTok</span>
+        <span class="contact-card__arrow">→</span>
+      </a>
+      <a href="https://wa.me/201270265770" class="contact-card" data-reveal>
+        <span class="contact-card__icon" style="background:#43A047">✆</span>
+        <span class="contact-card__label">WhatsApp</span>
+        <span class="contact-card__arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="section-inner footer__grid">
+    <div class="footer__brand">
+      <a href="#top" class="brand">
+        <span class="brand__mark">
+          <img src="image.png" alt="SIWES logo" width="34" height="34">
+        </span>
+        <span class="brand__text"><strong>SIWES</strong></span>
+      </a>
+      <p class="en-text lang-block">Smart, sustainable systems for water and energy — built for communities and the generations after them.</p>
+      <p class="ar-text lang-block">أنظمة ذكية ومستدامة للمياه والطاقة — مصممة للمجتمعات وللأجيال القادمة.</p>
+    </div>
+
+    <div class="footer__links">
+      <h4><span class="en-text lang-block">Quick Links</span><span class="ar-text lang-block">روابط سريعة</span></h4>
+      <a href="#about"><span class="en-text lang-block">About</span><span class="ar-text lang-block">من نحن</span></a>
+      <a href="#vision"><span class="en-text lang-block">Vision</span><span class="ar-text lang-block">رؤيتنا</span></a>
+      <a href="#initiatives"><span class="en-text lang-block">Initiatives</span><span class="ar-text lang-block">مبادراتنا</span></a>
+      <a href="#contact"><span class="en-text lang-block">Contact</span><span class="ar-text lang-block">تواصل معنا</span></a>
+    </div>
+
+    <div class="footer__social">
+      <h4><span class="en-text lang-block">Social Media</span><span class="ar-text lang-block">وسائل التواصل</span></h4>
+      <div class="footer__social-icons">
+        <a href="https://www.facebook.com/share/1DEFErzuTK/" aria-label="Facebook">f</a>
+        <a href="https://www.tiktok.com/@siwes02?_r=1&_t=ZS-98im3P4nNkz" aria-label="TikTok">♪</a>
+        <a href="https://wa.me/201270265770" aria-label="WhatsApp">✆</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <p>© <span id="year"></span> SIWES — <span class="en-text lang-block">Smart Integrated Water &amp; Energy System. All rights reserved.</span><span class="ar-text lang-block">النظام الذكي المتكامل للمياه والطاقة. جميع الحقوق محفوظة.</span></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
